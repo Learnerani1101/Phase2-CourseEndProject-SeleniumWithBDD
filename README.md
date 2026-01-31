@@ -77,31 +77,6 @@ The project utilizes Page Factory to initialize web elements.
 •Locators: Stored within Page Classes to maintain clean code.
 •Hooks: @Before and @After hooks are used to initialize and close the WebDriver session automatically.
 
-📂 Folder Structure: 
-|--- stepDefinitions/           <-- Gherkin-to-Code mapping 
-|        |--- HomeSteps.java 
-|        |--- PizzasMenuSteps.java 
-|        |--- DrinkMenuSteps.java 
-|        |--- OrderDealSteps.java 
-|        |--- BasketMenuSteps.java 
-|
-|----- runners/    <-- Cucumber Execution Engine 
-|         |--- Runner.java 
-|
-|------ utils/    <-- Framework Helpers 
-|         |--- ExtentReportUtil.java 
-|         |--- ScenarioContext.java 
-|         |--- ScreenshotUtil.java 
-|         |--- TestConfigurationReader.java 
-|         |--- WebDriverFactory.java 
-|
-|------ resources/ 
-|         |--- features/     <-- BDD User Stories 
-|                   |--- pizzahut_pizza_orderflow.feature 
-|
-|--- pom.xml                 <-- Dependency Management [cite: 92, 94]
-|--- README.md 
-
 
 🧪 Execution
 To run the tests:
